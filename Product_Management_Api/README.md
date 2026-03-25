@@ -1,9 +1,16 @@
-# Library Management API
+# Product Management API
 
-> 🚀 **Live Demo**: [Coming Soon - Deploying March 22, 2025]
+> 🚀 **Live Demo**: https://product-management-qt7g.onrender.com
 
-REST API for library operations with borrowing/return system.
+REST API for product management
 
+## 🐳 Docker Deployment
+
+Containerized with multi-stage Docker build:
+- **Build Stage:** Maven + JDK 21 → JAR compilation
+- **Runtime Stage:** Slim JRE → Optimized image (~200MB)
+
+**CI/CD:** Automated deployment via Render on GitHub push
 
 # Product Management API
 
